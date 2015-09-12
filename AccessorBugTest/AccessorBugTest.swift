@@ -32,9 +32,9 @@ struct Attribute : CustomStringConvertible {
 }
 
 
-var AccessorBugTestSingleton : AccessorBugTest!
+var AccessorBugTestSingleton : AccessorBugTestClass!
 
-class AccessorBugTest {
+class AccessorBugTestClass {
     
     let index       : Int
     var attributes  : [Attribute] = []
@@ -53,7 +53,7 @@ class AccessorBugTest {
   
     init() {
         index = 10
-        for i in 1...31 {
+        for _ in 1...31 {
             let att = Attribute(x: .Superb, y: .Superb, z: .Superb, w: .Superb)
             attributes.append(att)
         }
