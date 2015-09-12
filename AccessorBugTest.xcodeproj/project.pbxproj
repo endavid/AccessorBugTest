@@ -13,6 +13,8 @@
 		6320EBC71BA30FC200D0E149 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6320EBC61BA30FC200D0E149 /* Images.xcassets */; };
 		6320EBCA1BA30FC200D0E149 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6320EBC81BA30FC200D0E149 /* LaunchScreen.xib */; };
 		6320EBD61BA30FC200D0E149 /* AccessorBugTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBD51BA30FC200D0E149 /* AccessorBugTestTests.swift */; };
+		6320EBE01BA3101000D0E149 /* AccessorBugTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBDF1BA3101000D0E149 /* AccessorBugTest.swift */; };
+		6320EBE11BA3A08100D0E149 /* AccessorBugTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBDF1BA3101000D0E149 /* AccessorBugTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		6320EBCF1BA30FC200D0E149 /* AccessorBugTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessorBugTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6320EBD41BA30FC200D0E149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6320EBD51BA30FC200D0E149 /* AccessorBugTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessorBugTestTests.swift; sourceTree = "<group>"; };
+		6320EBDF1BA3101000D0E149 /* AccessorBugTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessorBugTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +80,13 @@
 		6320EBBC1BA30FC200D0E149 /* AccessorBugTest */ = {
 			isa = PBXGroup;
 			children = (
+				6320EBDF1BA3101000D0E149 /* AccessorBugTest.swift */,
 				6320EBBF1BA30FC200D0E149 /* AppDelegate.swift */,
-				6320EBC11BA30FC200D0E149 /* ViewController.swift */,
-				6320EBC31BA30FC200D0E149 /* Main.storyboard */,
 				6320EBC61BA30FC200D0E149 /* Images.xcassets */,
 				6320EBC81BA30FC200D0E149 /* LaunchScreen.xib */,
+				6320EBC31BA30FC200D0E149 /* Main.storyboard */,
 				6320EBBD1BA30FC200D0E149 /* Supporting Files */,
+				6320EBC11BA30FC200D0E149 /* ViewController.swift */,
 			);
 			path = AccessorBugTest;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6320EBC21BA30FC200D0E149 /* ViewController.swift in Sources */,
+				6320EBE01BA3101000D0E149 /* AccessorBugTest.swift in Sources */,
 				6320EBC01BA30FC200D0E149 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6320EBD61BA30FC200D0E149 /* AccessorBugTestTests.swift in Sources */,
+				6320EBE11BA3A08100D0E149 /* AccessorBugTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
