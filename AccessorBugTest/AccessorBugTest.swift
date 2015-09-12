@@ -16,7 +16,7 @@ enum Level : Int {
     Superb  = 3
 }
 
-struct Attribute : Printable {
+struct Attribute : CustomStringConvertible {
     var x : Level = .Normal
     var y : Level = .Normal
     var z : Level = .Normal
@@ -41,7 +41,7 @@ class AccessorBugTest {
     var todaysAttributes : Attribute {
         get {
             let r = attributes[index]
-            println("today: \(r)")
+            print("today: \(r)")
             return r
         }
     }
@@ -54,13 +54,13 @@ class AccessorBugTest {
     init() {
         index = 10
         for i in 1...31 {
-            var att = Attribute(x: .Superb, y: .Superb, z: .Superb, w: .Superb)
+            let att = Attribute(x: .Superb, y: .Superb, z: .Superb, w: .Superb)
             attributes.append(att)
         }
         
         let attribs = todaysAttributes
         initialText = "\(attribs)"
-        println("init: \(attribs), \(self.attributes[index])")
+        print("init: \(attribs), \(self.attributes[index])")
     }
     
 }
