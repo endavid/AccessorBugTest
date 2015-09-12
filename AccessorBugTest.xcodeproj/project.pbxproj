@@ -160,6 +160,7 @@
 		6320EBB21BA30FC200D0E149 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "David Gavilan";
 				TargetAttributes = {
@@ -417,6 +418,7 @@
 				6320EBDB1BA30FC200D0E149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6320EBDC1BA30FC200D0E149 /* Build configuration list for PBXNativeTarget "AccessorBugTestTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +427,7 @@
 				6320EBDE1BA30FC200D0E149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
