@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B60E671BA44F8700D6B2B6 /* AccessorBugTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B60E661BA44F8700D6B2B6 /* AccessorBugTestTests.swift */; };
 		6320EBC01BA30FC200D0E149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBBF1BA30FC200D0E149 /* AppDelegate.swift */; };
 		6320EBC21BA30FC200D0E149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBC11BA30FC200D0E149 /* ViewController.swift */; };
 		6320EBC51BA30FC200D0E149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6320EBC31BA30FC200D0E149 /* Main.storyboard */; };
 		6320EBC71BA30FC200D0E149 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6320EBC61BA30FC200D0E149 /* Images.xcassets */; };
 		6320EBCA1BA30FC200D0E149 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6320EBC81BA30FC200D0E149 /* LaunchScreen.xib */; };
-		6320EBD61BA30FC200D0E149 /* AccessorBugTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBD51BA30FC200D0E149 /* AccessorBugTestTests.swift */; };
 		6320EBE01BA3101000D0E149 /* AccessorBugTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBDF1BA3101000D0E149 /* AccessorBugTest.swift */; };
-		6320EBE11BA3A08100D0E149 /* AccessorBugTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320EBDF1BA3101000D0E149 /* AccessorBugTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6320EBD01BA30FC200D0E149 /* PBXContainerItemProxy */ = {
+		32B60E691BA44F8700D6B2B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6320EBB21BA30FC200D0E149 /* Project object */;
 			proxyType = 1;
@@ -28,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32B60E641BA44F8700D6B2B6 /* AccessorBugTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessorBugTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B60E661BA44F8700D6B2B6 /* AccessorBugTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessorBugTestTests.swift; sourceTree = "<group>"; };
+		32B60E681BA44F8700D6B2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6320EBBA1BA30FC200D0E149 /* AccessorBugTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessorBugTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6320EBBE1BA30FC200D0E149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6320EBBF1BA30FC200D0E149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,21 +37,18 @@
 		6320EBC41BA30FC200D0E149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6320EBC61BA30FC200D0E149 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6320EBC91BA30FC200D0E149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6320EBCF1BA30FC200D0E149 /* AccessorBugTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessorBugTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6320EBD41BA30FC200D0E149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6320EBD51BA30FC200D0E149 /* AccessorBugTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessorBugTestTests.swift; sourceTree = "<group>"; };
 		6320EBDF1BA3101000D0E149 /* AccessorBugTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessorBugTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6320EBB71BA30FC200D0E149 /* Frameworks */ = {
+		32B60E611BA44F8700D6B2B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6320EBCC1BA30FC200D0E149 /* Frameworks */ = {
+		6320EBB71BA30FC200D0E149 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,11 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32B60E651BA44F8700D6B2B6 /* AccessorBugTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				32B60E661BA44F8700D6B2B6 /* AccessorBugTestTests.swift */,
+				32B60E681BA44F8700D6B2B6 /* Info.plist */,
+			);
+			path = AccessorBugTestTests;
+			sourceTree = "<group>";
+		};
 		6320EBB11BA30FC200D0E149 = {
 			isa = PBXGroup;
 			children = (
 				6320EBBC1BA30FC200D0E149 /* AccessorBugTest */,
-				6320EBD21BA30FC200D0E149 /* AccessorBugTestTests */,
+				32B60E651BA44F8700D6B2B6 /* AccessorBugTestTests */,
 				6320EBBB1BA30FC200D0E149 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				6320EBBA1BA30FC200D0E149 /* AccessorBugTest.app */,
-				6320EBCF1BA30FC200D0E149 /* AccessorBugTestTests.xctest */,
+				32B60E641BA44F8700D6B2B6 /* AccessorBugTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,26 +107,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6320EBD21BA30FC200D0E149 /* AccessorBugTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				6320EBD51BA30FC200D0E149 /* AccessorBugTestTests.swift */,
-				6320EBD31BA30FC200D0E149 /* Supporting Files */,
-			);
-			path = AccessorBugTestTests;
-			sourceTree = "<group>";
-		};
-		6320EBD31BA30FC200D0E149 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6320EBD41BA30FC200D0E149 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		32B60E631BA44F8700D6B2B6 /* AccessorBugTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B60E6B1BA44F8700D6B2B6 /* Build configuration list for PBXNativeTarget "AccessorBugTestTests" */;
+			buildPhases = (
+				32B60E601BA44F8700D6B2B6 /* Sources */,
+				32B60E611BA44F8700D6B2B6 /* Frameworks */,
+				32B60E621BA44F8700D6B2B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B60E6A1BA44F8700D6B2B6 /* PBXTargetDependency */,
+			);
+			name = AccessorBugTestTests;
+			productName = AccessorBugTestTests;
+			productReference = 32B60E641BA44F8700D6B2B6 /* AccessorBugTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6320EBB91BA30FC200D0E149 /* AccessorBugTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6320EBD91BA30FC200D0E149 /* Build configuration list for PBXNativeTarget "AccessorBugTest" */;
@@ -136,24 +145,6 @@
 			productReference = 6320EBBA1BA30FC200D0E149 /* AccessorBugTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6320EBCE1BA30FC200D0E149 /* AccessorBugTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6320EBDC1BA30FC200D0E149 /* Build configuration list for PBXNativeTarget "AccessorBugTestTests" */;
-			buildPhases = (
-				6320EBCB1BA30FC200D0E149 /* Sources */,
-				6320EBCC1BA30FC200D0E149 /* Frameworks */,
-				6320EBCD1BA30FC200D0E149 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6320EBD11BA30FC200D0E149 /* PBXTargetDependency */,
-			);
-			name = AccessorBugTestTests;
-			productName = AccessorBugTestTests;
-			productReference = 6320EBCF1BA30FC200D0E149 /* AccessorBugTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,12 +156,12 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "David Gavilan";
 				TargetAttributes = {
+					32B60E631BA44F8700D6B2B6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6320EBB91BA30FC200D0E149;
+					};
 					6320EBB91BA30FC200D0E149 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					6320EBCE1BA30FC200D0E149 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 6320EBB91BA30FC200D0E149;
 					};
 				};
 			};
@@ -188,12 +179,19 @@
 			projectRoot = "";
 			targets = (
 				6320EBB91BA30FC200D0E149 /* AccessorBugTest */,
-				6320EBCE1BA30FC200D0E149 /* AccessorBugTestTests */,
+				32B60E631BA44F8700D6B2B6 /* AccessorBugTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		32B60E621BA44F8700D6B2B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6320EBB81BA30FC200D0E149 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,16 +202,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6320EBCD1BA30FC200D0E149 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		32B60E601BA44F8700D6B2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B60E671BA44F8700D6B2B6 /* AccessorBugTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6320EBB61BA30FC200D0E149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,22 +223,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6320EBCB1BA30FC200D0E149 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6320EBD61BA30FC200D0E149 /* AccessorBugTestTests.swift in Sources */,
-				6320EBE11BA3A08100D0E149 /* AccessorBugTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6320EBD11BA30FC200D0E149 /* PBXTargetDependency */ = {
+		32B60E6A1BA44F8700D6B2B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6320EBB91BA30FC200D0E149 /* AccessorBugTest */;
-			targetProxy = 6320EBD01BA30FC200D0E149 /* PBXContainerItemProxy */;
+			targetProxy = 32B60E691BA44F8700D6B2B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -263,6 +253,33 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		32B60E6C1BA44F8700D6B2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = AccessorBugTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuburg.matt.AccessorBugTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessorBugTest.app/AccessorBugTest";
+			};
+			name = Debug;
+		};
+		32B60E6D1BA44F8700D6B2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = AccessorBugTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuburg.matt.AccessorBugTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessorBugTest.app/AccessorBugTest";
+			};
+			name = Release;
+		};
 		6320EBD71BA30FC200D0E149 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -299,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -338,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = AccessorBugTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,49 +378,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = AccessorBugTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		6320EBDD1BA30FC200D0E149 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AccessorBugTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessorBugTest.app/AccessorBugTest";
-			};
-			name = Debug;
-		};
-		6320EBDE1BA30FC200D0E149 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AccessorBugTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessorBugTest.app/AccessorBugTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		32B60E6B1BA44F8700D6B2B6 /* Build configuration list for PBXNativeTarget "AccessorBugTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B60E6C1BA44F8700D6B2B6 /* Debug */,
+				32B60E6D1BA44F8700D6B2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6320EBB51BA30FC200D0E149 /* Build configuration list for PBXProject "AccessorBugTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -417,15 +410,6 @@
 			buildConfigurations = (
 				6320EBDA1BA30FC200D0E149 /* Debug */,
 				6320EBDB1BA30FC200D0E149 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6320EBDC1BA30FC200D0E149 /* Build configuration list for PBXNativeTarget "AccessorBugTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6320EBDD1BA30FC200D0E149 /* Debug */,
-				6320EBDE1BA30FC200D0E149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
