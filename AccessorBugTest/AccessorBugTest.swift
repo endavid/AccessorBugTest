@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum Level : Int {
+@objc enum Level : Int {
     case
     Bad     = 0,
     Normal  = 1,
