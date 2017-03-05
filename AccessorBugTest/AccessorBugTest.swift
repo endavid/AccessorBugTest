@@ -10,17 +10,17 @@ import Foundation
 
 enum Level : Int {
     case
-    Bad     = 0,
-    Normal  = 1,
-    Good    = 2,
-    Superb  = 3
+    bad     = 0,
+    normal  = 1,
+    good    = 2,
+    superb  = 3
 }
 
 struct Attribute : CustomStringConvertible {
-    var x : Level = .Normal
-    var y : Level = .Normal
-    var z : Level = .Normal
-    var w : Level = .Normal
+    var x : Level = .normal
+    var y : Level = .normal
+    var z : Level = .normal
+    var w : Level = .normal
     
     var description : String {
         return "(\(x.rawValue), \(y.rawValue), \(z.rawValue), \(w.rawValue))"
@@ -54,7 +54,7 @@ class AccessorBugTestClass {
     init() {
         index = 10
         for _ in 1...31 {
-            let att = Attribute(x: .Superb, y: .Superb, z: .Superb, w: .Superb)
+            let att = Attribute(x: .superb, y: .superb, z: .superb, w: .superb)
             attributes.append(att)
         }
         
